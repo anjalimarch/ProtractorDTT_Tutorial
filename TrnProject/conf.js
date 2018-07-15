@@ -2,7 +2,7 @@ exports.config = {
 		// directConnect: true,and need not to give this address.
   framework: 'jasmine',
   seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['All.js'],
+  specs: ['dropdownTwo.js'],
 /*   jasmineNodeOpts: {
     defaultTimeoutInterval: 120000,
 }*/
