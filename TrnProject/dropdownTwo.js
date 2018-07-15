@@ -25,6 +25,9 @@ describe('Protractor Element steps', function() {
 
 		browser.get('https://juliemr.github.io/protractor-demo/');
 		calc(3, 5, "MULIPLICATION");
+		
+		//help of chainlocators
+		//element(by.model("operator")).element(by.css("option:nth-child(3)")).click();
 
 	});
 });
