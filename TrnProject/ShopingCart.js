@@ -24,7 +24,7 @@ describe('Protractor Element steps', function() {
 
 		})
 
-		element(by.name("name")).clear();
+		element(by.name("name")).clear();s
 
 		element(by.name("name")).sendKeys("M");
 
